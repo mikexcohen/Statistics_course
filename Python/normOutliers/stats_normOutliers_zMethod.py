@@ -28,7 +28,7 @@ data[data>2] = data[data>2]**2; # try to force a few outliers
 data = data*200 + 50  # change the scale for comparison with z
 
 # convert to z
-dataZ = (data-np.mean(data)) / np.std(data)
+dataZ = (data-np.mean(data)) / np.std(data,ddof=1)
 
 
 #### specify the z-score threshold
@@ -74,7 +74,7 @@ fig
 
 # pick a lenient threshold just for illustration
 zscorethresh = 2
-dataZ = (data-np.mean(data)) / np.std(data)
+dataZ = (data-np.mean(data)) / np.std(data,ddof=1)
 
 
 colorz = 'brkm'
