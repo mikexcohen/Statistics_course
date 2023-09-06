@@ -34,7 +34,7 @@ for i in range(N):
     
 
 # convert to z (don't need the original data)
-ds = (ds-np.mean(ds)) / np.std(ds)
+ds = (ds-np.mean(ds)) / np.std(ds,ddof=1)
 
 
 
