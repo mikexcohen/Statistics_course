@@ -63,7 +63,7 @@ plt.show()
 # small aside on Seaborn
 
 import seaborn as sns
-sns.distplot(data) # uses FD rule by default
+sns.displot(data) # uses FD rule by default
 
 
 # In[ ]:
