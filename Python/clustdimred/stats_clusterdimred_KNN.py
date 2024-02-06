@@ -71,7 +71,7 @@ plt.show()
 newpoint = 2*np.random.rand(2)-1
 
 # and plot it
-ax.plot(newpoint[0],newpoint[1],'ko',MarkerFaceColor='g',markersize=15)
+ax.plot(newpoint[0],newpoint[1],'ko',markerfacecolor='g',markersize=15)
 fig
 
 
@@ -109,8 +109,8 @@ whichgroup = int( np.median(grouplabels[sortidx[:k]]) )
 print('New data belong to group ' + str(whichgroup))
 
 # and re-plot
-ax.plot(newpoint[0],newpoint[1],'ko',MarkerFaceColor='g',markersize=15)
-ax.plot(newpoint[0],newpoint[1],'ko',MarkerFaceColor=groupcolors[whichgroup])
+ax.plot(newpoint[0],newpoint[1],'ko',markerfacecolor='g',markersize=15)
+ax.plot(newpoint[0],newpoint[1],'ko',markerfacecolor=groupcolors[whichgroup])
 ax.plot(data[sortidx[:k],0],data[sortidx[:k],1],'ko',markersize=10,fillstyle='none')
 fig
 
