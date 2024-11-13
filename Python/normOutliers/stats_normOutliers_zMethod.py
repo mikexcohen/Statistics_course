@@ -121,7 +121,8 @@ print(removeFromOriginal)
 dataMed = np.median(data)
 dataMAD = robust.mad(data)
 
-dataMz = stats.norm.ppf(.75)*(data-dataMed) / dataMAD
+# note: robust.mad already includes the normalization factor discussed in the video
+dataMz = (data-dataMed) / dataMAD
 
 
 # plot the data
