@@ -85,7 +85,7 @@ for ri=1:length(r)
         
         % the t-value, split into num/den
         num = r(ri)*sqrt(n(ni)-2);
-        den = 1-r(ri)^2;
+        den = sqrt(1-r(ri)^2);
         
         tmatrix(ri,ni) = num/den;
         pmatrix(ri,ni) = 1-tcdf(abs(num/den),n(ni)-2);
