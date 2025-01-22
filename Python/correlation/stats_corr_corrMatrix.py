@@ -48,7 +48,7 @@ plt.xlabel('Time (a.u.)')
 plt.ylabel('Channel')
 plt.show()
 
-plt.imshow(data,aspect='auto',vmin=-2,vmax=2,extent=[t[0],t[-1],0,M])
+plt.imshow(data,aspect='auto',vmin=-2,vmax=2,extent=[t[0],t[-1],0,M],origin='lower')
 plt.xlabel('Time (a.u.)')
 plt.ylabel('Channel')
 plt.show()
@@ -62,7 +62,7 @@ plt.show()
 # note the size of the output!
 dataCovMat = np.cov(data.T)
 
-plt.imshow(dataCovMat,vmin=-.5,vmax=.5)
+plt.imshow(dataCovMat,vmin=-.5,vmax=.5,origin='lower')
 plt.title('Data covariance matrix')
 plt.xlabel('??')
 plt.ylabel('??')
@@ -77,7 +77,7 @@ plt.show()
 # note the size of the output!
 dataCorrMat = np.corrcoef(data)
 
-plt.imshow(dataCorrMat,vmin=-.5,vmax=.5)
+plt.imshow(dataCorrMat,vmin=-.5,vmax=.5,origin='lower')
 plt.title('Data correlation matrix')
 plt.xlabel('??')
 plt.ylabel('??')
