@@ -81,7 +81,7 @@ for meani in range(len(meandiffs)):
         allTvals[meani,vari] = meandiffs[meani] / t_den
 
         
-plt.imshow(allTvals,vmin=-4,vmax=4,extent=[pooledvar[0],pooledvar[-1],meandiffs[0],meandiffs[-1]],aspect='auto')
+plt.imshow(allTvals,vmin=-4,vmax=4,extent=[pooledvar[0],pooledvar[-1],meandiffs[0],meandiffs[-1]],origin='lower',aspect='auto')
 plt.xlabel('Variance')
 plt.ylabel('Mean differences')
 plt.colorbar()
