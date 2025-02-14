@@ -17,6 +17,11 @@ close all; clear; clc
 marriage_url = 'https://www.cdc.gov/nchs/data/dvs/state-marriage-rates-90-95-99-19.xlsx';
 divorce_url  = 'https://www.cdc.gov/nchs/data/dvs/state-divorce-rates-90-95-99-19.xlsx';
 
+%% NOTE:
+
+% The data file format has changed slightly since I recorded the video.
+% The code below is correct but is slightly different than in the video.
+
 %% import marriage data
 
 % raw data
@@ -35,7 +40,7 @@ for coli = 1:length(yearM)
     
     % get year (same for all rows...)
     % some columns are text, others are numeric
-    yearval = data{5,coli+1};
+    yearval = data{1,coli+1};
     if isnumeric(yearval)
         yearM(coli) = yearval;
     else
@@ -48,7 +53,7 @@ for coli = 1:length(yearM)
     for rowi = 1:51
         
         % get value from this cell and convert to number
-        val = data{rowi+6,coli+1};
+        val = data{rowi+2,coli+1};
         if isnumeric(val)
             M(rowi,coli) = val;
         else
@@ -58,7 +63,7 @@ for coli = 1:length(yearM)
         
         % get state label (only in first colum)
         if coli==1
-            statesM{rowi} = data{rowi+6,1};
+            statesM{rowi} = data{rowi+2,1};
         end
     end % end row loop
 end % end column loop
