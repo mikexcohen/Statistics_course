@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # # COURSE: Master statistics and machine learning: Intuition, Math, code
-# ##### COURSE URL: udemy.com/course/statsml_x/?couponCode=202304 
+# ##### COURSE URL: udemy.com/course/statsml_x/?couponCode=202509 
 # ## SECTION: Correlation
 # ### VIDEO: Simulate data with specified correlation
 # #### TEACHER: Mike X Cohen, sincxpress.com

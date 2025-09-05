@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # # COURSE: Master statistics and machine learning: Intuition, Math, code
-# ##### COURSE URL: udemy.com/course/statsml_x/?couponCode=202006 
+# ##### COURSE URL: udemy.com/course/statsml_x/?couponCode=202509 
 # ## SECTION: Signal detection theory
 # ### VIDEO: ROC curves
 # #### TEACHER: Mike X Cohen, sincxpress.com

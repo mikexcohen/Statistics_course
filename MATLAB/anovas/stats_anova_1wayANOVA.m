@@ -1,6 +1,6 @@
 %%
 %   COURSE: Master statistics and machine learning: intuition, math, code										
-%      URL: udemy.com/course/statsml_x/?couponCode=202304 udemy.com/course/statsml_x/?couponCode=202304 
+%      URL: udemy.com/course/statsml_x/?couponCode=202509 udemy.com/course/statsml_x/?couponCode=202509 
 % 
 %  SECTION: Analysis of Variance (ANOVA)
 %    VIDEO: One-way ANOVA (independent samples)

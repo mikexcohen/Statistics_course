@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # # COURSE: Master statistics and machine learning: Intuition, Math, code
-# ##### COURSE URL: udemy.com/course/statsml_x/?couponCode=202006 
+# ##### COURSE URL: udemy.com/course/statsml_x/?couponCode=202509 
 # ## SECTION: The t-test family
 # ### VIDEO: Two-samples t-test
 # #### TEACHER: Mike X Cohen, sincxpress.com
