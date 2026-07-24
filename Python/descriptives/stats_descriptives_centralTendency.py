@@ -144,5 +144,5 @@ for i in range(len(uniq_data)):
     print(f'{uniq_data[i]} appears {sum(data==uniq_data[i])} times.')
 
 print(' ')
-print('The modal value is %g'%stats.mode(data)[0][0])
+print('The modal value is %g'%stats.mode(data)[0])
 
